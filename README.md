@@ -13,7 +13,6 @@ source <virtualenv-name>/bin/activate # Activating the virtual environment
 deactivate # Deactivating the virtual environment
 ```
 ## How to run
-```
+```python
 anime=animescrap()# init 
 anime.search("Naruto") # search a anime
-```
