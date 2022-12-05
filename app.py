@@ -45,5 +45,3 @@ class animescrap():
         for i in parentbalise.find_all(f'{childbalise}'):
             tab.append(i.text.replace('\t','').replace('\n','').replace('\xa0',''))
         return tab
-anime=animescrap()
-print(anime.search("Naruto"))
