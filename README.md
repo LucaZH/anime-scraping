@@ -14,5 +14,6 @@ deactivate # Deactivating the virtual environment
 ```
 ## How to run
 ```
-python3 app.py
+anime=animescrap()# init 
+anime.search("Naruto") # search a anime
 ```
